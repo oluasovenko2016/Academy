@@ -1,0 +1,132 @@
+.container{
+	width:100%;
+	height:2600px;
+
+}
+.header{
+	width:100%;
+	height:60px;
+	background:white;
+}
+.content{
+	width:100%;
+	height:2140px;
+
+}
+.footer{
+	width:100%;
+	height:300px;
+	background:blue;
+	
+}
+
+.name{
+    text-align: center;
+    color: aqua;
+	
+}
+span.ing{
+	color:black;
+}
+
+
+span.ing1{
+	color:white;
+}
+span.ing2{
+	color: #353949;
+    font-family: 'Inder';
+	font-size: 25px;
+	
+}
+
+
+a:link{
+	color:#353949;
+	text-decoration:none;
+}
+.text{
+	text-align: center;
+}
+
+.underline{
+	border-bottom:2px solid currentColor;
+	font-size:30px;
+	font-family:"Time New Roman";
+	margin:0 26px;
+}
+
+.underline--blue{
+	border-bottom-color:aqua;
+	
+}
+
+
+.imgblock{
+	position:relative;
+	display:inline-flex;
+	
+}
+.imgblock img{
+	width:100%;
+}
+.imgblock span{
+	color:#ffffff;
+	line-height:1.5;
+	position:absolute;
+	left:0;
+	bottom:100;
+	font-size:60px;
+	padding:60px 140px;
+}
+
+.box{
+	display:flex;
+	align-items:stretch;
+    background:white;
+	
+	}
+
+
+.item{
+	flex:1 1 auto;
+	margin:0 26px;
+	box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	font-size:25px;
+	border-radius:15px;
+}
+.item1{
+	flex:1 1 auto;
+	text-align: center;
+	margin:0 26px;
+	background: white;
+}
+
+.chek-button{
+	width:270px;
+	height:54px;
+	margin:auto;
+	margin-bottom:50px;
+	color:white;
+	background: #33ADF1;
+	font-size:35px;
+	border:none;
+}
+.box-icon{
+    display:flex;
+    background:none;
+
+}
+
+.box icon{
+	display: flex;
+    background:blue;
+}
+
+.ic{
+    display:block;
+	margin:auto;
+border-radius:10px;
+background: #0931BF;
+margin:flex;
+}
